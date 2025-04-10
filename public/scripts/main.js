@@ -14,8 +14,6 @@ window.addEventListener("DOMContentLoaded", () => {
     includeHTML("/site-vitrine/public/components/Header.html", "header");
     includeHTML("/site-vitrine/public/components/Footer.html", "footer");
 
-    highlightActivePage();
-
     window.addEventListener('scroll', function() {
         const sections = document.querySelectorAll('section');
         const links = document.querySelectorAll('.nav-links a');
