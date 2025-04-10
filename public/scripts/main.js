@@ -11,8 +11,8 @@ function includeHTML(file, targetId) {
 }
 
 window.addEventListener("DOMContentLoaded", () => {
-    includeHTML("/site-vitrine/public/components/Header.html", "header");
-    includeHTML("/site-vitrine/public/components/Footer.html", "footer");
+    includeHTML("/site-vitrine/public/components/header.html", "header");
+    includeHTML("/site-vitrine/public/components/footer.html", "footer");
 
     window.addEventListener('scroll', function() {
         const sections = document.querySelectorAll('section');
