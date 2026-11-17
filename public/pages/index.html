@@ -1,40 +1,245 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accueil - Benjamin CUVILLIEZ</title>
-    <link rel="icon" href="/site-vitrine/public/assets/pics/ico.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/site-vitrine/public/assets/styles/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benjamin Cuvilliez · Product security, cap gouvernance</title>
+  <meta name="description" content="Benjamin Cuvilliez, alternant en sécurité produit (SIRT) chez un équipementier télécom. Gestion des vulnérabilités, bulletins de sécurité client, trajectoire gouvernance cyber." />
+  <meta name="theme-color" content="#f8f8f8" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="../assets/fonts/menbere-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="../assets/fonts/menbere-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="../assets/styles/main.css" />
 </head>
 <body>
-    <div id="particles-js"></div>
-    <div id="header"></div>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
 
-    <main class="hero">
-        <div class="hero-header">
-            <!--<img src="/site-vitrine/public/assets/pics/profil.jpg" alt="Photo de profil" class="hero-profile-pic" />-->
-            <h1>Benjamin Cuvilliez - Étudiant en Cybersécurité (3ᵉ année)</h1>
+  <header class="masthead">
+    <a class="monogram" href="index.html" aria-label="Benjamin Cuvilliez, accueil">BC</a>
+    <nav class="nav" aria-label="Navigation principale">
+      <ul>
+        <li><a href="index.html" aria-current="page">Accueil</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="parcours.html">Parcours</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section class="advisory" aria-labelledby="titre">
+      <p class="advisory-meta">
+        <span>AVIS DE SÉCURITÉ</span><span>BC-2026-001</span><span>Version 3.2</span><span>Publié le 16/11/2026</span>
+      </p>
+      <p class="status">Statut : en alternance</p>
+
+      <h1 class="advisory-title" id="titre">Benjamin Cuvilliez</h1>
+      <p class="advisory-summary">Product security en conditions réelles, cap gouvernance.</p>
+
+      <dl class="advisory-table">
+        <div>
+          <dt>Portée :</dt>
+          <dd>sécurité produit télécom, gestion des vulnérabilités</dd>
         </div>
-        <p>
-            Actuellement étudiant en troisième année de 
-            <a href="https://www.esiea.fr/" target="_blank" class="custom-link">Bachelor Cybersécurité à l’ESIEA</a>, je suis en <strong>alternance</strong> chez <strong>Ekinops</strong> en tant que <strong>apprentice R&amp;D Product security engineer</strong>.
-            Je <strong>ne suis pas à la recherche</strong> d’un stage ni d’une alternance.
-            N'hésitez pas à me contacter via 
-            <a href="https://www.linkedin.com/in/benjamin-cuvilliez/" target="_blank" class="custom-link">LinkedIn</a> ou directement par 
-            <a href="mailto:benjamin@cuvilliez-cyber.fr" class="custom-link">mail</a> pour toute question ou échange professionnel.
-            <br />
-            Ce site web est une vitrine personnelle, mise à jour régulièrement. Il est possible que vous rencontriez quelques bugs visuels ou des limitations.
-        </p>
-    </main>    
+        <div>
+          <dt>Période :</dt>
+          <dd class="mono">nov. 2025 → août 2028</dd>
+        </div>
+        <div>
+          <dt>Évolution prévue :</dt>
+          <dd>gouvernance, ISO 27001, RSSI</dd>
+        </div>
+      </dl>
 
-    <div style="height: 7vh;"></div>
+      <div class="actions">
+        <a class="button button-solid" href="https://www.linkedin.com/in/benjamin-cuvilliez/" target="_blank" rel="noopener">
+          LinkedIn
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 3H3v10h10v-3M9 3h4v4M13 3 7 9"/></svg>
+          <span class="visually-hidden"> (nouvel onglet)</span>
+        </a>
+        <a class="button button-line" href="parcours.html">
+          Lire le parcours
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
+        </a>
+      </div>
+    </section>
 
-    <div id="footer"></div>
+    <div class="sections">
+      <details class="section" id="resume">
+        <summary><span class="num">1.</span> <h2 class="title">Résumé</h2><span class="toggle" aria-hidden="true"></span></summary>
+        <div class="section-body">
+          <p class="margin-note"><b>Objet</b><span>Profil en alternance, sécurité produit</span><b>Langue de travail</b><span>Anglais, environ 70 % du temps</span></p>
+          <div class="prose">
+            <p>Alternant R&amp;D Product Security Engineer dans l'équipe de réponse aux incidents de sécurité (SIRT) d'Ekinops, équipementier réseau et télécom. Je produis les bulletins de sécurité destinés aux clients et j'outille la gestion des vulnérabilités : collecte, contrôle de cohérence, suivi des délais.</p>
+            <p>Le cap est la gouvernance cyber : gestion des risques, conformité, politique de sécurité. Je poursuis en Mastère Expert Cybersécurité à l'École 2600, avec la spécialisation Gouvernance en deuxième année, et je prépare l'ISO 27001 Lead Auditor, sans quitter le terrain technique.</p>
+          </div>
+        </div>
+      </details>
 
-    <script src="/site-vitrine/public/scripts/main.js"></script>
-    <script src="/site-vitrine/public/scripts/particles.js"></script>
+      <details class="section" id="impact">
+        <summary><span class="num">2.</span> <h2 class="title">Impact mesuré : ≈ 47 bulletins par jour ouvré</h2><span class="toggle" aria-hidden="true"></span></summary>
+        <div class="section-body">
+          <p class="margin-note"><b>Contexte</b><span>Hausse du volume de CVE et délais resserrés par le Cyber Resilience Act</span><b>Mémoire</b><span>Automatisation et pilotage de la gestion des vulnérabilités, soutenu en septembre 2026</span></p>
+          <div>
+            <ol class="chain" aria-label="Chaîne de divulgation, de la détection au bulletin client">
+              <li class="owned">
+                <h3>Détection</h3>
+                <p>Collecte nocturne des vulnérabilités publiques, internes et tierces, fiabilisée et étendue.</p>
+                <span class="tooling">Python · GitLab CI</span>
+              </li>
+              <li>
+                <h3>Analyse</h3>
+                <p>Suivi des analyses des référents sécurité produit : scores, statut, version corrective.</p>
+                <span class="tooling">PostgreSQL</span>
+              </li>
+              <li class="owned">
+                <h3>Contrôle</h3>
+                <p>Comparateur automatique entre les bulletins publiés et la base interne.</p>
+                <span class="tooling">GitLab CI planifié</span>
+              </li>
+              <li class="owned">
+                <h3>Bulletin</h3>
+                <p>Création et mise à jour des bulletins de sécurité client (SAB), en responsabilité principale depuis janvier 2026.</p>
+                <span class="tooling">CVE · CVSS · VEX</span>
+              </li>
+              <li class="owned">
+                <h3>Suivi SLA</h3>
+                <p>Calcul des dépassements de délais et tableaux de bord partagés avec les équipes produit.</p>
+                <span class="tooling">Jira · Grafana</span>
+              </li>
+            </ol>
+            <dl class="figures">
+              <div>
+                <dt>Charge moyenne</dt>
+                <dd>≈ 47<small>créations et mises à jour de bulletins par jour ouvré, sur un an</small></dd>
+              </div>
+              <div>
+                <dt>Montée en charge</dt>
+                <dd>× 5<small>volume mensuel entre fin 2025 et mi-2026</small></dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </details>
+
+      <details class="section" id="projets">
+        <summary><span class="num">3.</span> <h2 class="title">Projets concernés</h2><span class="toggle" aria-hidden="true"></span></summary>
+        <div class="section-body">
+          <p class="margin-note"><b>Nature</b><span>Pratique pro : en production<br />Lab : recherche en environnement isolé<br />Formation : cadre académique</span></p>
+          <div class="ledger-wrap">
+            <table class="ledger stack">
+              <thead>
+                <tr><th scope="col">Réf.</th><th scope="col">Projet</th><th scope="col">Cadre</th><th scope="col">Nature</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="ref">P-01</td>
+                  <th scope="row">Pilotage des vulnérabilités produit<span class="detail">Collecte, comparateur, suivi SLA et production des bulletins (voir section 2).</span></th>
+                  <td>Alternance SIRT</td>
+                  <td><span class="tag tag-pro">Pratique pro</span></td>
+                </tr>
+                <tr>
+                  <td class="ref">P-02</td>
+                  <th scope="row">Diagnostic cyber pour TPE/PME<span class="detail">Outil Python d'évaluation de la sécurité, avec score et recommandations.</span></th>
+                  <td>ESIEA × Google.org</td>
+                  <td><span class="tag tag-formation">Formation</span></td>
+                </tr>
+                <tr>
+                  <td class="ref">P-03</td>
+                  <th scope="row">Inspection de scripts Windows (AMSI)<span class="detail">Recherche sur les mécanismes d'inspection de scripts, en environnement isolé.</span></th>
+                  <td>Personnel</td>
+                  <td><span class="tag tag-lab">Lab</span></td>
+                </tr>
+                <tr>
+                  <td class="ref">P-04</td>
+                  <th scope="row">Veille RSS automatisée<span class="detail">Crawler et agrégation de flux, alertes par mots-clés. Équipe de 3.</span></th>
+                  <td>ESIEA</td>
+                  <td><span class="tag tag-formation">Formation</span></td>
+                </tr>
+                <tr>
+                  <td class="ref">P-05</td>
+                  <th scope="row">Mini-shell POSIX en C<span class="detail">Processus, mémoire, commandes internes et externes.</span></th>
+                  <td>ESIEA</td>
+                  <td><span class="tag tag-formation">Formation</span></td>
+                </tr>
+                <tr>
+                  <td class="ref">P-06</td>
+                  <th scope="row">Infrastructure web sécurisée<span class="detail">Pare-feu pfSense, reverse proxy, durcissement des sessions. Équipe de 4.</span></th>
+                  <td>ESIEA</td>
+                  <td><span class="tag tag-formation">Formation</span></td>
+                </tr>
+                <tr>
+                  <td class="ref">P-07</td>
+                  <th scope="row">Secrets du navigateur<span class="detail">PoC de recherche sur le stockage des secrets navigateur, en environnement isolé.</span></th>
+                  <td>Personnel</td>
+                  <td><span class="tag tag-lab">Lab</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </details>
+
+      <details class="section" id="evolution">
+        <summary><span class="num">4.</span> <h2 class="title">Évolution prévue : gouvernance</h2><span class="toggle" aria-hidden="true"></span></summary>
+        <div class="section-body">
+          <p class="margin-note"><b>Échéance</b><span>Août 2028</span></p>
+          <div class="ledger-wrap">
+            <table class="ledger stack">
+              <thead>
+                <tr><th scope="col">Jalon</th><th scope="col">Détail</th><th scope="col">Statut</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Mastère Expert Cybersécurité, M1</th>
+                  <td>Tronc commun, École 2600, en alternance. Sept. 2026 → août 2027.</td>
+                  <td><span class="tag tag-current">En cours</span></td>
+                </tr>
+                <tr>
+                  <th scope="row">Mastère, M2 Gouvernance</th>
+                  <td>Spécialisation Gouvernance, École 2600. Sept. 2027 → août 2028.</td>
+                  <td><span class="tag tag-planned">À venir</span></td>
+                </tr>
+                <tr>
+                  <th scope="row">ISO 27001 Lead Auditor</th>
+                  <td>Préparation dans le cadre du Mastère.</td>
+                  <td><span class="tag tag-planned">À venir</span></td>
+                </tr>
+                <tr>
+                  <th scope="row">Pratiques visées</th>
+                  <td>EBIOS RM, PSSI, gestion des risques, conformité réglementaire (CRA).</td>
+                  <td><span class="tag tag-formation">Trajectoire</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </details>
+
+      <details class="section" id="references">
+        <summary><span class="num">5.</span> <h2 class="title">Références</h2><span class="toggle" aria-hidden="true"></span></summary>
+        <div class="section-body">
+          <p class="margin-note"><b>Canal conseillé</b><span>LinkedIn</span></p>
+          <ul class="link-list">
+            <li><a href="https://www.linkedin.com/in/benjamin-cuvilliez/" target="_blank" rel="noopener"><span class="channel">LinkedIn</span><span class="address">in/benjamin-cuvilliez</span><span class="use">Échanges pro</span></a></li>
+            <li><a href="https://github.com/BenjiPy" target="_blank" rel="noopener"><span class="channel">GitHub</span><span class="address">github.com/BenjiPy</span><span class="use">Code</span></a></li>
+            <li><a href="https://www.root-me.org/Kolibri-615807" target="_blank" rel="noopener"><span class="channel">Root-Me</span><span class="address">root-me.org/Kolibri-615807</span><span class="use">Challenges</span></a></li>
+            <li><a href="parcours.html"><span class="channel">Parcours</span><span class="address">Historique des révisions</span><span class="use">Page</span></a></li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </main>
+
+  <footer class="colophon">
+    <p><strong>Fin de l'avis BC-2026-001.</strong> Benjamin Cuvilliez, © 2026. Portfolio personnel.</p>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/benjamin-cuvilliez/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/BenjiPy" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.root-me.org/Kolibri-615807" target="_blank" rel="noopener">Root-Me</a></li>
+    </ul>
+  </footer>
+
+  <script src="../scripts/main.js" defer></script>
 </body>
 </html>
